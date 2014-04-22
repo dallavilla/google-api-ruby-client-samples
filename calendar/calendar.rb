@@ -33,7 +33,7 @@ configure do
   logger.level = Logger::DEBUG
 
   client = Google::APIClient.new(
-    :application_name => 'Ruby Calendar sample',
+    :application_name => 'pilu_gcal_01',  #'Ruby Calendar sample',
     :application_version => '1.0.0')
   
   file_storage = Google::APIClient::FileStorage.new(CREDENTIAL_STORE_FILE)
